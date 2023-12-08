@@ -60,20 +60,21 @@ body{
     font-size: 5.2rem;
     margin-left: 2rem;
 }
-.card section .question{
+.card details .question{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.question p{
+.question{
     font-size: 1.8rem;
     color: var(--Dark-purple);
     font-weight: var(--semi-bold);
 }
 .question:hover{
     cursor: pointer;
+    color: var(--Grayish-purple);
 }
-.answer p{
+.answer{
     color: var(--Dark-purple);
     line-height: 1.5;
     opacity: 0.6;
