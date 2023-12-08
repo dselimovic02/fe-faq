@@ -80,3 +80,35 @@ body{
     opacity: 0.6;
     margin: 1.5rem 2rem 1.5rem 0;
 }
+
+
+@media screen and (max-width: 800px) {
+    html{
+        background-image: url("assets/images/background-pattern-mobile.svg");
+    }
+}
+@media screen and (max-width: 375px) {
+    body{
+        font-size: 1.4rem;
+    }
+    .card{
+        width: 33rem;
+        border-radius: 1rem;
+        padding: 2.5rem;
+    }
+    .card header img{
+        width: 2.8rem;
+    }
+    .card header h1{
+        font-size: 3.2rem;
+    }
+    .question{
+        font-size: 1.6rem;
+    }
+    .question p{
+        margin-right: 2rem;
+    }
+    .answer{
+        margin: 1.5rem 1rem 1.5rem 0;
+    }
+}
